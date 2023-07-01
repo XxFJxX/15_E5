@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_15_E5.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Image
+                Source="num1.jpg"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            <Button Text="App Cambio" x:Name="Cambio" Clicked="Cambio_Clicked" />
+            
+            <Image
+                Source="num3.jpg"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            <Button Text="App Dino" x:Name="Dino" Clicked="Dino_Clicked"/>
+
+            <Image
+                Source="num2.jpg"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            <Button Text="App Superficie" x:Name="Superficie" Clicked="Superficie_Clicked" />
+            
+            <Image
+                Source="num4.jpg"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            <Button Text="App Gas" x:Name="Gas" Clicked="Gas_Clicked"/>
+           
+            <Image
+                Source="num0.jpg"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            <Button Text="Acerca de nosotros" x:Name="Acerca" Clicked="Acerca_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
